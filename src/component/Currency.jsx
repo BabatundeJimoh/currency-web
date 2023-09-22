@@ -225,7 +225,7 @@ const Currency = () => {
             </div>
           </div>
         </div>
-        <div className="exchange-rate">
+        <div className="exchange-rate" style={{ marginBottom: "20px" }}>
           {exchangeRate
             ? `${amount} ${fromCurrency} = ${(amount * exchangeRate).toFixed(
                 2
